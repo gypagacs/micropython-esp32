@@ -8,7 +8,7 @@ except:
     import struct
 
 # (date(2000, 1, 1) - date(1900, 1, 1)).days * 24*60*60
-NTP_DELTA = 3155673600
+NTP_DELTA = 3155673600 +946080000  # + 30 years
 
 host = "pool.ntp.org"
 
